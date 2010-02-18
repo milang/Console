@@ -27,18 +27,18 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 // TEXTINCLUDE
 //
 
-1 TEXTINCLUDE 
+1 TEXTINCLUDE
 BEGIN
     "resource.h\0"
 END
 
-2 TEXTINCLUDE 
+2 TEXTINCLUDE
 BEGIN
     "#include ""afxres.h""\r\n"
     "\0"
 END
 
-3 TEXTINCLUDE 
+3 TEXTINCLUDE
 BEGIN
     "\r\n"
     "\0"
@@ -53,8 +53,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 2,0,0,145
- PRODUCTVERSION 2,0,0,145
+ FILEVERSION 2,0,145,2
+ PRODUCTVERSION 2,0,145,2
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -72,13 +72,13 @@ BEGIN
             VALUE "Comments", "Tabbed cool console window (THIS IS NOT A SHELL :-)"
             VALUE "CompanyName", "Ingenuity Unlimited Ltd."
             VALUE "FileDescription", "Console process hook module"
-            VALUE "FileVersion", "2.00, Build 145 2009.12.08"
+            VALUE "FileVersion", "2.00, Build 145.beta2 (2010-02-18)"
             VALUE "InternalName", "Console"
-            VALUE "LegalCopyright", "Copyright © 2001-2009 Marko Bozikovic"
-            VALUE "LegalTrademarks", "Copyright © 2001-2009 Marko Bozikovic"
+            VALUE "LegalCopyright", "Copyright © 2001-2010 Marko Bozikovic"
+            VALUE "LegalTrademarks", "Copyright © 2001-2010 Marko Bozikovic"
             VALUE "OriginalFilename", "Console.exe"
             VALUE "ProductName", "Console"
-            VALUE "ProductVersion", "2.00.00.145"
+            VALUE "ProductVersion", "2.00, Build 145.beta2 (2010-02-18)"
         END
     END
     BLOCK "VarFileInfo"

@@ -1,0 +1,17 @@
+Console2 is a Windows console window enhancement.
+Console2 features include: multiple tabs, text editor-like text selection, different background types,
+alpha and color-key transparency, configurable font, different window styles
+
+
+Console2 development setup
+==========================
+
+[assumes Visual Studio 2008 is installed]
+1. Download latest Boost (http://www.boost.org/users/download/)
+2. Extract to "(targetDir)\boost"
+3. Download latest WTL (http://sourceforge.net/projects/wtl/files/)
+4. Extract to "(targetDir)\wtl"
+5. In Visual Studio, Tools -> Options -> Projects and Solutions -> VC++ Directories:
+    Add to "Include Files" (for both x64 and win32 platforms) -
+        (targetDir)\boost
+        (targetDir)\wtl\Include
